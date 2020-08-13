@@ -12,12 +12,24 @@
                 max-width: 100%;
                 vertical-align: top;
             }
+          
+          img#responsive{
+              display: none;
+          }
+
+          @media screen and (max-width: 768px){
+                img#responsive{
+                    display: block;
+                }
+          }  
         </style>
 </head>
 <body>
+    <img src="GretschFooter.jpg" alt="" id="responsive">
     <img src="GretschHeader.png" alt="">
     <img src="GretschMia.png" alt="">
     <img src="GretschClub.jpg" alt="">
     <img src="GretschRenow.jpg" alt="">
+    <img src="GretschFooter.jpg" alt="">
 </body>
 </html>
